@@ -1,4 +1,4 @@
-# express-typescript-ioc
+# typescript-express-ioc
 
 # Table Of Contents
 
