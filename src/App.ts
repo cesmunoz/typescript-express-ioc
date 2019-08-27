@@ -35,7 +35,7 @@ server.setConfig(app => {
   app.use(cors());
 
   app.get("/", (req: Request, res: Response) =>
-    res.send(200).send("Welcome to FWI Code Challenge API")
+    res.send(200).send("Welcome to the API")
   );
 });
 

@@ -1,7 +1,7 @@
 {
-  "name": "fwi-server",
+  "name": "typescript-express-ioc",
   "version": "1.0.0",
-  "description": "Four wind interactive - Server side",
+  "description": "typescript-express-ioc",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node ./src/App.ts",
