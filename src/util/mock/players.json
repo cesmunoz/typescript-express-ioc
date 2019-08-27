@@ -1,0 +1,26 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Smith",
+    "hometown": "Gallifrey",
+    "winnings": "25.9"
+  },
+  {
+    "firstname": "Sherlock",
+    "lastname": "Holmes",
+    "hometown": "London",
+    "winnings": "19.9"
+  },
+  {
+    "firstname": "Homer",
+    "lastname": "Simpson",
+    "hometown": "Springfield",
+    "winnings": "19.2"
+  },
+  {
+    "firstname": "Eric",
+    "lastname": "Cartman",
+    "hometown": "South Park",
+    "winnings": "17.5"
+  }
+]

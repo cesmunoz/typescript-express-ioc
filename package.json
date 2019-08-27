@@ -1,0 +1,48 @@
+{
+  "name": "fwi-server",
+  "version": "1.0.0",
+  "description": "Four wind interactive - Server side",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/App.ts",
+    "start": "tsc && nodemon ./dist/App",
+    "build": "tsc",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "test": "jest --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/supertest": "^2.0.7",
+    "jest": "24.7.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.8.0",
+    "@typescript-eslint/parser": "^1.8.0",
+    "@types/express": "^4.16.1",
+    "@types/mongodb-memory-server": "^1.8.0",
+    "@types/mongoose": "^5.5.1",
+    "@types/body-parser": "^1.17.0",
+    "@types/node": "^12.0.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "inversify": "^5.0.1",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-express-utils": "^6.3.2",
+    "reflect-metadata": "^0.1.13",
+    "express": "^4.16.4",
+    "cors": "^2.8.5",
+    "mongodb-memory-server": "^5.1.1",
+    "mongoose": "^5.5.7",
+    "nodemon": "^1.19.0",
+    "prettier": "^1.17.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.1.0"
+  }
+}
