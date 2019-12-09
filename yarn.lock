@@ -726,13 +726,6 @@ async@2.6.1:
   dependencies:
     lodash "^4.17.10"
 
-async@2.6.2:
-  version "2.6.2"
-  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/async/-/async-2.6.2.tgz#18330ea7e6e313887f5d2f2a904bac6fe4dd5381"
-  integrity sha1-GDMOp+bjE4h/XS8qkEusb+TdU4E=
-  dependencies:
-    lodash "^4.17.11"
-
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
@@ -3629,17 +3622,6 @@ mkdirp@0.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mongodb-core@3.2.7:
-  version "3.2.7"
-  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongodb-core/-/mongodb-core-3.2.7.tgz#a8ef1fe764a192c979252dacbc600dc88d77e28f"
-  integrity sha1-qO8f52Shksl5JS2svGANyI134o8=
-  dependencies:
-    bson "^1.1.1"
-    require_optional "^1.0.1"
-    safe-buffer "^5.1.2"
-  optionalDependencies:
-    saslprep "^1.0.0"
-
 mongodb-memory-server-core@5.2.0:
   version "5.2.0"
   resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongodb-memory-server-core/-/mongodb-memory-server-core-5.2.0.tgz#0f3be9c822fa9ec3491c4fc3ccef0eb375fa184f"
@@ -3670,13 +3652,16 @@ mongodb-memory-server@^5.1.1:
   dependencies:
     mongodb-memory-server-core "5.2.0"
 
-mongodb@3.2.7:
-  version "3.2.7"
-  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongodb/-/mongodb-3.2.7.tgz#8ba149e4be708257cad0dea72aebb2bbb311a7ac"
-  integrity sha1-i6FJ5L5wglfK0N6nKuuyu7MRp6w=
+mongodb@3.3.5:
+  version "3.3.5"
+  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongodb/-/mongodb-3.3.5.tgz#38d531013afede92b0dd282e3b9f3c08c9bdff3b"
+  integrity sha1-ONUxATr+3pKw3SguO588CMm9/zs=
   dependencies:
-    mongodb-core "3.2.7"
+    bson "^1.1.1"
+    require_optional "^1.0.1"
     safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
 
 mongodb@>=3.2.7:
   version "3.3.1"
@@ -3692,19 +3677,17 @@ mongoose-legacy-pluralize@1.0.2:
   resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
   integrity sha1-O6n5H6UHtRhtOZ+0CFS/8Y+1Y+Q=
 
-mongoose@^5.5.7:
-  version "5.6.11"
-  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongoose/-/mongoose-5.6.11.tgz#c63f557b702a02be8e20ec21d8f7776bdb9bd2d8"
-  integrity sha1-xj9Ve3AqAr6OIOwh2Pd3a9ub0tg=
+mongoose@^5.7.14:
+  version "5.7.14"
+  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mongoose/-/mongoose-5.7.14.tgz#1e9be2b561b6f4e3fad9d4b2a4f0de14f02a785f"
+  integrity sha1-HpvitWG29OP62dSypPDeFPAqeF8=
   dependencies:
-    async "2.6.2"
     bson "~1.1.1"
     kareem "2.3.1"
-    mongodb "3.2.7"
-    mongodb-core "3.2.7"
+    mongodb "3.3.5"
     mongoose-legacy-pluralize "1.0.2"
     mpath "0.6.0"
-    mquery "3.2.1"
+    mquery "3.2.2"
     ms "2.1.2"
     regexp-clone "1.0.0"
     safe-buffer "5.1.2"
@@ -3716,10 +3699,10 @@ mpath@0.6.0:
   resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mpath/-/mpath-0.6.0.tgz#aa922029fca4f0f641f360e74c5c1b6a4c47078e"
   integrity sha1-qpIgKfyk8PZB82DnTFwbakxHB44=
 
-mquery@3.2.1:
-  version "3.2.1"
-  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mquery/-/mquery-3.2.1.tgz#8b059a49cdae0a8a9e804284ef64c2f58d3ac05d"
-  integrity sha1-iwWaSc2uCoqegEKE72TC9Y06wF0=
+mquery@3.2.2:
+  version "3.2.2"
+  resolved "https://artifactory.fourwindsinteractive.com:443/api/npm/fwi-npm-virtual/mquery/-/mquery-3.2.2.tgz#e1383a3951852ce23e37f619a9b350f1fb3664e7"
+  integrity sha1-4Tg6OVGFLOI+N/YZqbNQ8fs2ZOc=
   dependencies:
     bluebird "3.5.1"
     debug "3.1.0"
